@@ -32,8 +32,9 @@ export default function Index() {
           <View className="flex-1 mt-5">
             <SearchBar
               onPress={() => router.push("/search")}
-              placeholder="Search for a movie"
-
+              placeholder="Search for a movie" value={""} onChangeText={function (text: string): void {
+                throw new Error("Function not implemented.");
+              }}
             />
 
             <>
