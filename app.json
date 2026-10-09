@@ -8,6 +8,7 @@
     "scheme": "movies",
     "userInterfaceStyle": "automatic",
     "android": {
+      "package": "com.my.movieapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/logo.png"
